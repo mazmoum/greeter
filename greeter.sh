@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 trap "" SIGTERM
 echo "Hello! This container ignores SIGTERM."
 while true; do
